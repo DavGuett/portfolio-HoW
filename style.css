@@ -31,7 +31,34 @@ body {
 
 .introducao-container {
     max-width: 50rem;
-    margin: 0 auto;
-    background-color: #f7f7f7;
-    
+    margin: 20px auto;
+    padding: 0 1rem 1rem 1rem;
+    background-color: #f7f7f7;   
+    border-radius: 4px;
+}
+
+#projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: #210A3F;
+    color:white;
+    padding: 50px;
+
+}
+
+.projeto {
+    background-color: #000;
+    height: 500px;
+    position: relative;
+}
+
+.projeto::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 7px;
+    background-color: #7721ab;
+    position: absolute;
+    top: -7px;
 }
