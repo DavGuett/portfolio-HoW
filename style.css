@@ -28,6 +28,11 @@ body {
     padding: 10px 20px 10px 20px;
 }
 
+.cabecalho-menu a:hover {
+    color:#000;
+    background-color: #fff;
+}
+
 .introducao-container {
     max-width: 50rem;
     margin: 20px auto;
