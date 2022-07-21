@@ -67,6 +67,11 @@ body {
     top: -7px;
 }
 
+.imagem-projeto {
+    margin-top: 50px;
+    max-width: 100%;
+}
+
 .formacao-container {
     max-width: 50rem;
     margin: 20px auto;
