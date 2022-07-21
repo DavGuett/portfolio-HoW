@@ -17,6 +17,9 @@ body {
     list-style: none;
 }
 
+.cabecalho p {
+    font-size: 1.5rem;
+}
 .cabecalho a {
     color: #fff;
     text-decoration: none;
